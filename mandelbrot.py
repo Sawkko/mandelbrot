@@ -41,7 +41,6 @@ while(True):
 				
 			elif event.type == pygame.MOUSEBUTTONDOWN:
 				# Set the location of mouse click as the new center point and zoom
-				# Something's wrong with the math here...
 				center_x, center_y = event.pos
 				center_y = (float)(center_y)/Y
 				center_x = (float)(center_x)/X
